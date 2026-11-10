@@ -582,12 +582,16 @@ input,select{width:100%;min-width:0;text-overflow:ellipsis}
         <li><button type="button" data-place="bb"><b>10 m</b><span>Banco do Brasil</span></button></li>
         <li><button type="button" data-place="r100"><b>100 m</b><span>Farmácias</span></button></li>
         <li><button type="button" data-place="r200"><b>200 m</b><span>Supermercados</span></button></li>
+        <li><button type="button" data-place="notredame"><b>≈ 160 m</b><span>Colégio Notre Dame</span></button></li>
         <li><button type="button" data-place="clube"><b>350 m</b><span>Clube Comercial</span></button></li>
         <li><button type="button" data-place="estacao"><b>700 m</b><span>Estação 599</span></button></li>
+        <li><button type="button" data-place="hospital"><b>≈ 800 m</b><span>Hospital Comunitário</span></button></li>
       </ul>
       <div class="map-tools" role="group" aria-label="Filtrar lugares do mapa" id="mapChips">
         <button type="button" data-cat="all" aria-pressed="true">Todos</button>
-        <button type="button" data-cat="lazer" aria-pressed="false"><i style="--c:#3f8f5a"></i>Lazer</button>
+        <button type="button" data-cat="educ" aria-pressed="false"><i style="--c:#6e4bb0"></i>Educação</button>
+        <button type="button" data-cat="compras" aria-pressed="false"><i style="--c:#1f8a86"></i>Mercados</button>
+        <button type="button" data-cat="lazer" aria-pressed="false"><i style="--c:#3f8f5a"></i>Lazer e cultura</button>
         <button type="button" data-cat="gastro" aria-pressed="false"><i style="--c:#c0712f"></i>Gastronomia</button>
         <button type="button" data-cat="serv" aria-pressed="false"><i style="--c:#2f5aa8"></i>Serviços</button>
         <button type="button" data-cat="saude" aria-pressed="false"><i style="--c:#a8445a"></i>Saúde e pet</button>
@@ -683,6 +687,8 @@ input,select{width:100%;min-width:0;text-overflow:ellipsis}
 </g>
 <g class="m-pin" data-id="bb" data-cat="serv" tabindex="0" role="button" aria-label="Banco do Brasil, 10 m">
 <g transform="translate(846,748)"><g class="m-pin-s"><circle cy="6" r="30" fill="url(#m-shg)"/><circle r="21" fill="#2f5aa8" stroke="#fff" stroke-width="3.2"/><path d="M-9,-3 L0,-9 L9,-3 Z M-7,-1 V6 M-2.5,-1 V6 M2.5,-1 V6 M7,-1 V6 M-9,8 H9" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round"/></g></g>
+<path d="M848,726 L850,693" stroke="#2f5aa8" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+<text class="m-poi" x="832" y="686">Banco do Brasil</text>
 </g>
 <g class="m-pin" data-id="clube" data-cat="lazer" tabindex="0" role="button" aria-label="Clube Comercial de Carazinho, 350 m">
 <g transform="translate(620,115)"><g class="m-pin-s"><circle cy="6" r="30" fill="url(#m-shg)"/><circle r="21" fill="#3f8f5a" stroke="#fff" stroke-width="3.2"/><circle r="6.5" fill="none" stroke="#fff" stroke-width="3.2"/></g></g>
@@ -691,7 +697,7 @@ input,select{width:100%;min-width:0;text-overflow:ellipsis}
 </g>
 <g class="m-pin" data-id="cafe" data-cat="gastro" tabindex="0" role="button" aria-label="Quiero Café, 240 m aproximadamente">
 <g transform="translate(447,495)"><g class="m-pin-s"><circle cy="6" r="30" fill="url(#m-shg)"/><circle r="21" fill="#c0712f" stroke="#fff" stroke-width="3.2"/><path d="M-8,-5h12v5a6,6 0 0 1 -12,0z M4,-3h2.5a3,3 0 0 1 0,6H4" fill="none" stroke="#fff" stroke-width="2.4" stroke-linejoin="round"/></g></g>
-<text class="m-poi" x="415" y="504" text-anchor="end">Quiero Café</text>
+<text class="m-poi" x="479" y="504">Quiero Café</text>
 </g>
 <g class="m-pin" data-id="confraria" data-cat="gastro" tabindex="0" role="button" aria-label="Confraria Store, 230 m aproximadamente">
 <g transform="translate(1045,400)"><g class="m-pin-s"><circle cy="6" r="30" fill="url(#m-shg)"/><circle r="21" fill="#c0712f" stroke="#fff" stroke-width="3.2"/><path d="M-8,-8 H8 L0,1 Z M0,1 V8 M-5,8 H5" fill="none" stroke="#fff" stroke-width="2.4" stroke-linejoin="round"/></g></g>
@@ -710,6 +716,55 @@ input,select{width:100%;min-width:0;text-overflow:ellipsis}
 <g transform="translate(195,585)"><g class="m-pin-s"><circle cy="6" r="30" fill="url(#m-shg)"/><circle r="21" fill="#c0712f" stroke="#fff" stroke-width="3.2"/><path d="M-5,-9 V-2 a2,2 0 0 0 4,0 V-9 M-3,-2 V9 M4,-9 c3,2 3,8 0,10 V9" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/></g></g>
 <text class="m-poi" x="227" y="594">Restaurante Meio Kilo</text>
 </g>
+<g class="m-pin" data-id="notredame" data-cat="educ" tabindex="0" role="button" aria-label="Colégio Notre Dame, 160 m aproximadamente">
+<g transform="translate(777,472)"><g class="m-pin-s"><circle cy="6" r="30" fill="url(#m-shg)"/><circle r="21" fill="#6e4bb0" stroke="#fff" stroke-width="3.2"/><path d="M-11,-2 L0,-8 L11,-2 L0,4 Z M-6,1 V6 C-3,9 3,9 6,6 V1 M11,-2 V5" fill="none" stroke="#fff" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/></g></g>
+<text class="m-poi" x="809" y="481">Colégio Notre Dame</text>
+</g>
+<g class="m-pin" data-id="biblioteca" data-cat="educ" tabindex="0" role="button" aria-label="Biblioteca Pública Municipal, 210 m aproximadamente">
+<g transform="translate(689,385)"><g class="m-pin-s"><circle cy="6" r="30" fill="url(#m-shg)"/><circle r="21" fill="#6e4bb0" stroke="#fff" stroke-width="3.2"/><path d="M0,-6 C-3,-8 -7,-8 -9.5,-7 V7 C-7,6 -3,6 0,8 C3,6 7,6 9.5,7 V-7 C7,-8 3,-8 0,-6 Z M0,-6 V8" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/></g></g>
+<text class="m-poi" x="657" y="394" text-anchor="end">Biblioteca Pública</text>
+</g>
+<g class="m-pin" data-id="ruibarbosa" data-cat="educ" tabindex="0" role="button" aria-label="Colégio Sinodal Rui Barbosa, 290 m aproximadamente">
+<g transform="translate(361,482)"><g class="m-pin-s"><circle cy="6" r="30" fill="url(#m-shg)"/><circle r="21" fill="#6e4bb0" stroke="#fff" stroke-width="3.2"/><path d="M-11,-2 L0,-8 L11,-2 L0,4 Z M-6,1 V6 C-3,9 3,9 6,6 V1 M11,-2 V5" fill="none" stroke="#fff" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/></g></g>
+<text class="m-poi" x="329" y="476" text-anchor="end">Colégio Sinodal</text>
+<text class="m-poi" x="329" y="506" text-anchor="end">Rui Barbosa</text>
+</g>
+<g class="m-pin" data-id="lasalle" data-cat="educ" tabindex="0" role="button" aria-label="Colégio La Salle, 350 m aproximadamente">
+<g transform="translate(1039,1298)"><g class="m-pin-s"><circle cy="6" r="30" fill="url(#m-shg)"/><circle r="21" fill="#6e4bb0" stroke="#fff" stroke-width="3.2"/><path d="M-11,-2 L0,-8 L11,-2 L0,4 Z M-6,1 V6 C-3,9 3,9 6,6 V1 M11,-2 V5" fill="none" stroke="#fff" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/></g></g>
+<text class="m-poi" x="1071" y="1307">Colégio La Salle</text>
+</g>
+<g class="m-pin" data-id="prefeitura" data-cat="serv" tabindex="0" role="button" aria-label="Prefeitura de Carazinho, 60 m aproximadamente">
+<g transform="translate(945,716)"><g class="m-pin-s"><circle cy="6" r="30" fill="url(#m-shg)"/><circle r="21" fill="#2f5aa8" stroke="#fff" stroke-width="3.2"/><path d="M-10,-3 L0,-9 L10,-3 Z M-7,-1 V6 M-2.5,-1 V6 M2.5,-1 V6 M7,-1 V6 M-10,8.5 H10" fill="none" stroke="#fff" stroke-width="2.1" stroke-linejoin="round"/></g></g>
+<text class="m-poi" x="977" y="725">Prefeitura</text>
+</g>
+<g class="m-pin" data-id="correios" data-cat="serv" tabindex="0" role="button" aria-label="Correios, 200 m aproximadamente">
+<g transform="translate(964,519)"><g class="m-pin-s"><circle cy="6" r="30" fill="url(#m-shg)"/><circle r="21" fill="#2f5aa8" stroke="#fff" stroke-width="3.2"/><path d="M-9,-6.5 H9 V6.5 H-9 Z M-9,-6.5 L0,1 L9,-6.5" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round"/></g></g>
+<text class="m-poi" x="996" y="528">Correios</text>
+</g>
+<g class="m-pin" data-id="itau" data-cat="serv" tabindex="0" role="button" aria-label="Itaú, 180 m aproximadamente">
+<g transform="translate(584,966)"><g class="m-pin-s"><circle cy="6" r="30" fill="url(#m-shg)"/><circle r="21" fill="#2f5aa8" stroke="#fff" stroke-width="3.2"/><path d="M-9,-3 L0,-9 L9,-3 Z M-7,-1 V6 M-2.5,-1 V6 M2.5,-1 V6 M7,-1 V6 M-9,8 H9" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round"/></g></g>
+<text class="m-poi" x="616" y="975">Itaú</text>
+</g>
+<g class="m-pin" data-id="economia" data-cat="compras" tabindex="0" role="button" aria-label="Supermercado Economia, 180 m aproximadamente">
+<g transform="translate(510,674)"><g class="m-pin-s"><circle cy="6" r="30" fill="url(#m-shg)"/><circle r="21" fill="#1f8a86" stroke="#fff" stroke-width="3.2"/><path d="M-10,-7 H-6 L-3,4 H7 L9.5,-4 H-5" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-1.5" cy="8.3" r="1.8" fill="#fff"/><circle cx="6" cy="8.3" r="1.8" fill="#fff"/></g></g>
+<text class="m-poi" x="478" y="683" text-anchor="end">Supermercado Economia</text>
+</g>
+<g class="m-pin" data-id="coqueiros" data-cat="compras" tabindex="0" role="button" aria-label="Coqueiros Supermercado, 310 m aproximadamente">
+<g transform="translate(1244,509)"><g class="m-pin-s"><circle cy="6" r="30" fill="url(#m-shg)"/><circle r="21" fill="#1f8a86" stroke="#fff" stroke-width="3.2"/><path d="M-10,-7 H-6 L-3,4 H7 L9.5,-4 H-5" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="-1.5" cy="8.3" r="1.8" fill="#fff"/><circle cx="6" cy="8.3" r="1.8" fill="#fff"/></g></g>
+<text class="m-poi" x="1244" y="475" text-anchor="middle">Coqueiros Supermercado</text>
+</g>
+<g class="m-pin" data-id="saojoao" data-cat="saude" tabindex="0" role="button" aria-label="Farmácia São João, 230 m aproximadamente">
+<g transform="translate(387,965)"><g class="m-pin-s"><circle cy="6" r="30" fill="url(#m-shg)"/><circle r="21" fill="#a8445a" stroke="#fff" stroke-width="3.2"/><path d="M-3,-9 H3 V-3 H9 V3 H3 V9 H-3 V3 H-9 V-3 H-3 Z" fill="#fff"/></g></g>
+<text class="m-poi" x="355" y="974" text-anchor="end">Farmácia São João</text>
+</g>
+<g class="m-pin" data-id="bomjesus" data-cat="lazer" tabindex="0" role="button" aria-label="Igreja Bom Jesus, 120 m aproximadamente">
+<g transform="translate(629,554)"><g class="m-pin-s"><circle cy="6" r="30" fill="url(#m-shg)"/><circle r="21" fill="#3f8f5a" stroke="#fff" stroke-width="3.2"/><path d="M0,-11 V-5 M-3,-8.5 H3 M-7,9 V-1 L0,-5 L7,-1 V9 Z M-2,9 V4 H2 V9" fill="none" stroke="#fff" stroke-width="2.1" stroke-linejoin="round"/></g></g>
+<text class="m-poi" x="597" y="563" text-anchor="end">Igreja Bom Jesus</text>
+</g>
+<g class="m-pin" data-id="paodeouro" data-cat="gastro" tabindex="0" role="button" aria-label="Padaria Pão de Ouro, 300 m aproximadamente">
+<g transform="translate(745,1235)"><g class="m-pin-s"><circle cy="6" r="30" fill="url(#m-shg)"/><circle r="21" fill="#c0712f" stroke="#fff" stroke-width="3.2"/><path d="M-9,3 C-9,-6 9,-6 9,3 Z M-4,-3 L-2,2 M1,-4 L2,1 M5,-2 L5.5,2" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/></g></g>
+<text class="m-poi" x="777" y="1244">Padaria Pão de Ouro</text>
+</g>
 <g class="m-pin m-tower" data-id="esm" data-cat="torre" tabindex="0" role="button" aria-label="Torre Esmeralda"><ellipse cx="793" cy="780" rx="12" ry="5" fill="#0b1b33" opacity=".25"/><ellipse cx="793" cy="730" rx="38" ry="42" fill="url(#m-shg)"/><path d="M793,778 C787,764 766,744 766,722 A27,27 0 1 1 820,722 C820,744 799,764 793,778 Z" fill="#1d4a44" stroke="#fff" stroke-width="3.5"/><circle cx="793" cy="722" r="10" fill="#c9a46a"/><rect x="442" y="683" width="310" height="62" rx="31" fill="#0b1b33" opacity=".18"/><rect x="442" y="678" width="310" height="62" rx="31" fill="#1d4a44"/><text class="m-tw" x="598" y="720" text-anchor="middle">Torre Esmeralda</text></g>
 <g class="m-pin m-tower" data-id="saf" data-cat="torre" tabindex="0" role="button" aria-label="Torre Safira"><ellipse cx="931" cy="842" rx="12" ry="5" fill="#0b1b33" opacity=".25"/><ellipse cx="931" cy="792" rx="38" ry="42" fill="url(#m-shg)"/><path d="M931,840 C925,826 904,806 904,784 A27,27 0 1 1 958,784 C958,806 937,826 931,840 Z" fill="#002453" stroke="#fff" stroke-width="3.5"/><circle cx="931" cy="784" r="10" fill="#c9a46a"/><rect x="971" y="745" width="258" height="62" rx="31" fill="#0b1b33" opacity=".18"/><rect x="971" y="740" width="258" height="62" rx="31" fill="#002453"/><text class="m-tw" x="1100" y="782" text-anchor="middle">Torre Safira</text></g>
 <g transform="translate(70,1379)"><rect x="-14" y="-40" width="275" height="58" rx="12" fill="#fff" opacity=".85"/><path d="M0,0 H215" stroke="#2a3550" stroke-width="4"/><path d="M0,-8 V8 M215,-8 V8 M108,-5 V5" stroke="#2a3550" stroke-width="3"/><text class="m-scale" x="108" y="-14" text-anchor="middle">100 m</text></g>
@@ -725,7 +780,7 @@ input,select{width:100%;min-width:0;text-overflow:ellipsis}
           <div class="mc-actions" id="mcActions"></div>
         </div>
       </div>
-      <p class="note">Distâncias a pé a partir do Gold Shopping. Praça, Banco do Brasil, farmácias, supermercados, Clube Comercial e Estação 599 conforme o book do empreendimento; as demais são aproximadas a partir do mapa.</p>
+      <p class="note">Distâncias a pé a partir do Gold Shopping. Praça, Banco do Brasil, farmácias, supermercados, Clube Comercial e Estação 599 conforme o book do empreendimento; as demais são aproximadas, com a localização do OpenStreetMap (© colaboradores do OpenStreetMap).</p>
     </div>
   </section>
 
@@ -1421,7 +1476,7 @@ $("#leadForm").addEventListener("submit", e => { e.preventDefault(); waBtn.click
 
 // mapa de localização: pinos clicáveis, filtros e caminho a pé
 (function(){
-  const MAP = {"places":[{"id":"praca","n":"Praça Albino Hillebrand","cat":"lazer","dist":"Em frente","min":1,"m":60,"d":"Praça em frente ao Gold Shopping, do outro lado da avenida.","aprox":false,"route":[[800,733],[776,702],[742,662],[712,640]],"xy":[703,625]},{"id":"bb","n":"Banco do Brasil","cat":"serv","dist":"10 m","min":1,"m":21,"d":"Agência a 10 m das torres, no mesmo quarteirão.","aprox":false,"route":[[800,733],[824,744],[842,752]],"xy":[846,748]},{"id":"clube","n":"Clube Comercial de Carazinho","cat":"lazer","dist":"350 m","min":5,"m":349,"d":"Clube social da cidade.","aprox":false,"route":[[800,733],[860,668],[815,595],[790,545],[745,470],[700,370],[665,300],[640,262],[600,180],[566,120],[606,118]],"xy":[620,115]},{"id":"cafe","n":"Quiero Café","cat":"gastro","dist":"240 m","min":4,"m":244,"d":"Cafeteria.","aprox":true,"route":[[800,733],[760,762],[674,814],[640,760],[590,690],[545,625],[500,565],[456,508]],"xy":[447,495]},{"id":"confraria","n":"Confraria Store","cat":"gastro","dist":"230 m","min":3,"m":230,"d":"","aprox":true,"route":[[800,733],[860,668],[1000,578],[1095,505],[1040,405],[1043,410]],"xy":[1045,400]},{"id":"padaria","n":"Padaria Europa","cat":"gastro","dist":"290 m","min":4,"m":294,"d":"Padaria.","aprox":true,"route":[[800,733],[760,762],[674,814],[690,840],[740,915],[790,995],[840,1070],[880,1120],[895,1132],[820,1150],[806,1160]],"xy":[800,1182]},{"id":"vet","n":"Clínica veterinária HELP Vet","cat":"saude","dist":"370 m","min":5,"m":372,"d":"Clínica para animais de estimação.","aprox":true,"route":[[800,733],[860,668],[1000,578],[1095,505],[1150,555],[1200,625],[1250,695],[1300,745],[1330,690],[1376,684]],"xy":[1392,682]},{"id":"meiokilo","n":"Restaurante Meio Kilo","cat":"gastro","dist":"410 m","min":6,"m":411,"d":"Restaurante.","aprox":true,"route":[[800,733],[760,762],[600,858],[425,975],[400,940],[330,830],[250,712],[205,640],[198,604]],"xy":[195,585]}],"cat":{"lazer":"Lazer","gastro":"Gastronomia","serv":"Serviços","saude":"Saúde e pet"},"col":{"lazer":"#3f8f5a","gastro":"#c0712f","serv":"#2f5aa8","saude":"#a8445a"},"S":[800,733]};
+  const MAP = {"places":[{"id":"praca","n":"Praça Albino Hillebrand","cat":"lazer","dist":"Em frente","min":1,"m":60,"d":"Praça em frente ao Gold Shopping, do outro lado da avenida.","aprox":false,"route":[[800,733],[776,702],[742,662],[712,640]],"xy":[703,625]},{"id":"bb","n":"Banco do Brasil","cat":"serv","dist":"10 m","min":1,"m":21,"d":"Agência a 10 m das torres, no mesmo quarteirão.","aprox":false,"route":[[800,733],[824,744],[842,752]],"xy":[846,748]},{"id":"clube","n":"Clube Comercial de Carazinho","cat":"lazer","dist":"350 m","min":5,"m":349,"d":"Clube social da cidade.","aprox":false,"route":[[800,733],[860,668],[815,595],[790,545],[745,470],[700,370],[665,300],[640,262],[600,180],[566,120],[606,118]],"xy":[620,115]},{"id":"cafe","n":"Quiero Café","cat":"gastro","dist":"240 m","min":4,"m":244,"d":"Cafeteria.","aprox":true,"route":[[800,733],[760,762],[674,814],[640,760],[590,690],[545,625],[500,565],[456,508]],"xy":[447,495]},{"id":"confraria","n":"Confraria Store","cat":"gastro","dist":"230 m","min":3,"m":230,"d":"","aprox":true,"route":[[800,733],[860,668],[1000,578],[1095,505],[1040,405],[1043,410]],"xy":[1045,400]},{"id":"padaria","n":"Padaria Europa","cat":"gastro","dist":"290 m","min":4,"m":294,"d":"Padaria.","aprox":true,"route":[[800,733],[760,762],[674,814],[690,840],[740,915],[790,995],[840,1070],[880,1120],[895,1132],[820,1150],[806,1160]],"xy":[800,1182]},{"id":"vet","n":"Clínica veterinária HELP Vet","cat":"saude","dist":"370 m","min":5,"m":372,"d":"Clínica para animais de estimação.","aprox":true,"route":[[800,733],[860,668],[1000,578],[1095,505],[1150,555],[1200,625],[1250,695],[1300,745],[1330,690],[1376,684]],"xy":[1392,682]},{"id":"meiokilo","n":"Restaurante Meio Kilo","cat":"gastro","dist":"410 m","min":6,"m":411,"d":"Restaurante.","aprox":true,"route":[[800,733],[760,762],[600,858],[425,975],[400,940],[330,830],[250,712],[205,640],[198,604]],"xy":[195,585]},{"id":"notredame","n":"Colégio Notre Dame","cat":"educ","dist":"160 m","min":2,"m":157,"d":"Colégio na Rua Bernardo Paz, a uma quadra e meia do Gold Shopping.","aprox":true,"route":[[800,733],[762,706],[723,646],[780,580],[790,545],[754,486],[777,472]],"xy":[777,472]},{"id":"biblioteca","n":"Biblioteca Pública Municipal","cat":"educ","dist":"210 m","min":3,"m":208,"d":"Biblioteca pública municipal, na Rua Bernardo Paz.","aprox":true,"route":[[800,733],[762,706],[723,646],[780,580],[790,545],[754,486],[745,470],[704,378],[689,385]],"xy":[689,385]},{"id":"ruibarbosa","n":"Colégio Sinodal Rui Barbosa","cat":"educ","dist":"290 m","min":4,"m":289,"d":"Colégio na Rua Pedro Vargas.","aprox":true,"route":[[800,733],[762,706],[723,646],[642,690],[600,628],[545,625],[500,565],[483,545],[445,500],[402,448],[361,482]],"xy":[361,482]},{"id":"lasalle","n":"Colégio La Salle","cat":"educ","dist":"350 m","min":5,"m":354,"d":"Colégio na Rua Pedro Vargas.","aprox":true,"route":[[800,733],[760,762],[674,814],[690,840],[740,915],[790,995],[840,1070],[880,1120],[887,1128],[907,1153],[920,1170],[960,1225],[1020,1300],[1027,1308],[1039,1298]],"xy":[1039,1298]},{"id":"prefeitura","n":"Prefeitura de Carazinho","cat":"serv","dist":"60 m","min":1,"m":60,"d":"Prefeitura Municipal, na Av. Flores da Cunha, 1264, ao lado do Gold Shopping.","aprox":true,"route":[[800,733],[872,700],[945,716]],"xy":[945,716]},{"id":"correios","n":"Correios","cat":"serv","dist":"200 m","min":3,"m":199,"d":"Agência dos Correios na Av. Flores da Cunha, 1197.","aprox":true,"route":[[800,733],[760,762],[860,690],[871,681],[1000,578],[1005,575],[964,519]],"xy":[964,519]},{"id":"itau","n":"Itaú","cat":"serv","dist":"180 m","min":3,"m":181,"d":"Agência na Av. Flores da Cunha.","aprox":true,"route":[[800,733],[760,762],[674,814],[600,858],[539,899],[584,966]],"xy":[584,966]},{"id":"economia","n":"Supermercado Economia","cat":"compras","dist":"180 m","min":3,"m":176,"d":"Supermercado na esquina das ruas Pedro Vargas e Venâncio Aires.","aprox":true,"route":[[800,733],[762,706],[723,646],[642,690],[590,690],[557,642],[510,674]],"xy":[510,674]},{"id":"coqueiros","n":"Coqueiros Supermercado","cat":"compras","dist":"310 m","min":4,"m":315,"d":"Supermercado na Av. Flores da Cunha.","aprox":true,"route":[[800,733],[760,762],[860,690],[871,681],[1000,578],[1005,575],[1100,505],[1110,498],[1197,439],[1244,509]],"xy":[1244,509]},{"id":"saojoao","n":"Farmácia São João","cat":"saude","dist":"230 m","min":3,"m":234,"d":"Farmácia na Rua Alexandre da Motta.","aprox":true,"route":[[800,733],[760,762],[674,814],[600,858],[539,899],[424,976],[408,951],[387,965]],"xy":[387,965]},{"id":"bomjesus","n":"Igreja Bom Jesus","cat":"lazer","dist":"120 m","min":2,"m":116,"d":"Igreja na Rua Padre Ramos.","aprox":true,"route":[[800,733],[762,706],[723,646],[662,588],[633,560],[629,554]],"xy":[629,554]},{"id":"paodeouro","n":"Padaria Pão de Ouro","cat":"gastro","dist":"300 m","min":4,"m":296,"d":"Padaria na Rua Silva Jardim.","aprox":true,"route":[[800,733],[760,762],[674,814],[690,840],[740,915],[790,995],[840,1070],[880,1120],[887,1128],[907,1153],[900,1155],[820,1175],[735,1196],[745,1235]],"xy":[745,1235]}],"cat":{"lazer":"Lazer e cultura","gastro":"Gastronomia","serv":"Serviços","compras":"Mercados","educ":"Educação","saude":"Saúde e pet"},"col":{"lazer":"#3f8f5a","gastro":"#c0712f","serv":"#2f5aa8","compras":"#1f8a86","educ":"#6e4bb0","saude":"#a8445a"},"S":[800,733]};
   const svgM = $("#mapSvg"); if (!svgM) return;
   const route = $("#m-route"), routeBg = $("#m-route-bg"), walker = $("#mWalker"), halo = $("#mHalo"), fx = $("#mapFx"), layers = $("#mapLayers");
   const card = { cat: $("#mcCat"), name: $("#mcName"), dist: $("#mcDist"), desc: $("#mcDesc"), act: $("#mcActions") };
@@ -1431,6 +1486,7 @@ $("#leadForm").addEventListener("submit", e => { e.preventDefault(); waBtn.click
     r100: { n: "Farm\u00e1cias", ring: 0, dist: "100 m", min: 2, d: "Farm\u00e1cias a cerca de 100 m, dentro do primeiro anel do mapa.", q: "farm\u00e1cia, Carazinho - RS" },
     r200: { n: "Supermercados", ring: 1, dist: "200 m", min: 3, d: "Supermercados a cerca de 200 m, dentro do segundo anel do mapa.", q: "supermercado, Carazinho - RS" },
     estacao: { n: "Esta\u00e7\u00e3o 599", dist: "700 m", min: 9, d: "A 700 m do Gold Shopping, fora da \u00e1rea mostrada no mapa.", q: "Esta\u00e7\u00e3o 599, Carazinho - RS" },
+    hospital: { n: "Hospital Comunit\u00e1rio de Carazinho", dist: "\u2248 800 m", min: 11, d: "Na Rua General C\u00e2mara, a cerca de 800 m em linha reta, fora da \u00e1rea mostrada no mapa.", q: "Hospital Comunit\u00e1rio de Carazinho, Rua General C\u00e2mara, 70, Carazinho - RS" },
   };
   const TOWERS_INFO = {
     esm: { n: "Torre Esmeralda", st: "Pronta para morar", href: "#esmeralda", c: "#1d4a44" },
